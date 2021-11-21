@@ -1,0 +1,86 @@
+body {
+  background-color: #fff;
+  color: #757575;
+}
+/* header section */
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: #2196f3;
+}
+.site-nav .link {
+  list-style: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+.auth-nav .link {
+  color: #212121;
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: #2196f3;
+}
+
+/* Main section */
+.main-fon{
+background: #2F303A;
+}
+.main-section{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    color: #fff;
+}
+
+/* button */
+.button{  
+    background-color:  #2196F3;
+    color: #fff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.section {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #212121;
+}
+.work {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: #212121;
+}
+.work-section {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #212121;
+}
+
+
+
+
