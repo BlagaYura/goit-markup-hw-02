@@ -13,12 +13,12 @@ body {
   color: #2196f3;
 }
 .site-nav .link {
-  list-style: none;
+  list-style:none;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   color: #212121;
 }
 .site-nav .link:hover,
@@ -42,7 +42,7 @@ background: #2F303A;
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.4;
     color: #fff;
 }
 
@@ -62,7 +62,7 @@ background: #2F303A;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   color: #212121;
 }
 .work {
@@ -70,7 +70,7 @@ background: #2F303A;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.2;
   color: #212121;
 }
 .work-section {
@@ -78,10 +78,44 @@ background: #2F303A;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.2;
   color: #212121;
 }
 
 
 
+
+/* Portfolio */
+.portfolio-foto{
+  width: 370px;
+}
+.box{
+  color: #212121;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.box:hover,
+.box:focus {
+  background-color: #2196F3 ;
+  color: #fff;
+}
+.portfolio-title{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  color: #212121;
+}
+.portfolio-project{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.9px;
+  color: #757575;
+}
 
