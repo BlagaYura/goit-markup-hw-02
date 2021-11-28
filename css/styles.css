@@ -35,10 +35,14 @@ body {
   line-height: 1.1;
   color: var(--title-text-color);
 }
+.site-nav .link-current{
+  color: var(--focus-text-color);
+}
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--focus-text-color);
 }
+
 .auth-nav .link {
   color: var(--title-text-color);
 }
@@ -74,7 +78,7 @@ background: var(--fon-color);
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.9;
 }
 
 .section {
@@ -85,6 +89,15 @@ background: var(--fon-color);
   line-height: 1.1;
   color: var(--title-text-color);
 }
+.section-text{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  }
 .work {
   font-family: Roboto;
   font-style: normal;
@@ -102,6 +115,32 @@ background: var(--fon-color);
   color: var(--title-text-color);
 }
 
+/* Footer */
+.footer-section{
+  background: var(--fon-color);
+  }
+ .studio-text{
+  color: var(--brand-text-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+ }
+ .footer-section .link{
+  color: var(--brand-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+ }
+ .footer-section .link:hover,
+ .footer-section .link:focus{
+   color: var(--focus-text-color);
+ }
 
 
 
