@@ -5,6 +5,7 @@
   --brand-text-color: #fff;
   --fon-color: #2F303A;
   --stydio-color: #000;
+  --contacts-text-color: rgba(255, 255, 255, 0.6);
 }
 body {
   background-color: var(--brand-text-color);
@@ -18,18 +19,15 @@ body {
 .studio{
   color: var(--stydio-color);
 }
-.logo {
+a { text-decoration: none; }
+.logo { 
   font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: bold 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   color: var(--focus-text-color);
 }
 .site-nav .link {
-  list-style:none;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -44,7 +42,7 @@ body {
 }
 
 .auth-nav .link {
-  color: var(--title-text-color);
+  color: var(--primary-text-color);
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
@@ -56,8 +54,6 @@ body {
 background: var(--fon-color);
 }
 .main-section{
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
@@ -74,41 +70,34 @@ background: var(--fon-color);
 .button{  
     background-color:  var(--focus-text-color);
     color: var(--brand-text-color);
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
+    font-family: inherit;
+    font-weight: bold 700;
     font-size: 16px;
     line-height: 1.9;
+    cursor: pointer;
 }
 
 .section {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: bold 700;
   font-size: 14px;
   line-height: 1.1;
   color: var(--title-text-color);
+  
 }
 .section-text{
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  text-transform:inherit ;
   }
 .work {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: bold 700;
   font-size: 36px;
   line-height: 1.2;
   color: var(--title-text-color);
 }
 .work-section {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -122,26 +111,33 @@ background: var(--fon-color);
  .studio-text{
   color: var(--brand-text-color);
   font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: bold 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
  }
  .footer-section .link{
-  color: var(--brand-text-color);
-  font-family: Roboto;
+  color: var(--contacts-text-color);
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
  }
  .footer-section .link:hover,
  .footer-section .link:focus{
    color: var(--focus-text-color);
  }
-
+ .footer-section .map:hover,
+ .footer-section .map:focus{
+  color: var(--focus-text-color);
+ }
+ .map{
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--brand-text-color);
+ }
 
 
 /* Portfolio */
@@ -149,12 +145,12 @@ background: var(--fon-color);
   width: 370px;
 }
 .box{
+  font-family: inherit;
   color: var(--title-text-color);
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
+  cursor: pointer;
 }
 .box:hover,
 .box:focus {
@@ -162,19 +158,18 @@ background: var(--fon-color);
   color: var(--brand-text-color)
 }
 .portfolio-title{
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+
+  font-weight: bold 700;
   font-size: 18px;
   line-height: 2;
   color: var(--title-text-color);
 }
 .portfolio-project{
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.9px;
   color: var(--primary-text-color);
 }
+
+
+
 
