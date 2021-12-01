@@ -22,7 +22,7 @@ body {
 a { text-decoration: none; }
 .logo { 
   font-family: Raleway;
-  font-weight: bold 700;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   color: var(--focus-text-color);
@@ -61,7 +61,7 @@ background: var(--fon-color);
 }
 .hidden{
   width: 1px;
-  height: 1px;
+  height: 1;
   overflow: hidden;
   opacity: 0;
   margin-top: -1px;
@@ -71,14 +71,14 @@ background: var(--fon-color);
     background-color:  var(--focus-text-color);
     color: var(--brand-text-color);
     font-family: inherit;
-    font-weight: bold 700;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
     cursor: pointer;
 }
 
 .section {
-  font-weight: bold 700;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
   color: var(--title-text-color);
@@ -92,7 +92,7 @@ background: var(--fon-color);
   text-transform:inherit ;
   }
 .work {
-  font-weight: bold 700;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   color: var(--title-text-color);
@@ -111,7 +111,7 @@ background: var(--fon-color);
  .studio-text{
   color: var(--brand-text-color);
   font-family: Raleway;
-  font-weight: bold 700;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -159,7 +159,7 @@ background: var(--fon-color);
 }
 .portfolio-title{
 
-  font-weight: bold 700;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   color: var(--title-text-color);
@@ -169,7 +169,3 @@ background: var(--fon-color);
   line-height: 1.9px;
   color: var(--primary-text-color);
 }
-
-
-
-
